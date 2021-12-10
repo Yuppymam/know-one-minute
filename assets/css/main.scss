@@ -1,0 +1,92 @@
+---
+---
+$main-color: #faff48;
+$black: #333333;
+$white: #fff;
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック体", "YuGothic", "メイリオ", "Meiryo", "verdana", sans-serif;
+  color: $black;
+  line-height: 1.5;
+}
+img {
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+.header {
+  background-color: $main-color;
+  display: flex;
+  justify-content: center;
+  .header-logo {
+    width: 260px;
+  }
+}
+
+.contents {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+}
+.main-content {
+  width: 70%;
+}
+.post-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  li:hover {
+    opacity: 0.85;
+  }
+}
+.post-list-item {
+  width: 48%;
+  margin-bottom: 2.4rem;
+}
+.post-thumbnail {
+  overflow:hidden;
+  border-radius: 6px;
+  box-shadow: 1px 3px 6px #c4c4c4;
+}
+.post-thumbnail img {
+  &:hover {
+    transform: scale(1.05);
+    transition: 0.6s all;
+  }
+}
+.post-list-body {
+  font-size: 0.9rem;
+  padding-top: 1rem;
+}
+.post-list-title {
+  padding: 0.5rem 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.post-list-meta {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.8rem;
+}
+.post-list-time::before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f017';
+  font-weight: 400;
+  margin-right: 0.25rem;
+}
+
+.sidebar {
+  width: 28%;
+}
+.categories-title {
+  padding: 0.8rem;
+  font-weight: bold;
+  background-color: $main-color;
+  color: $black;
+}

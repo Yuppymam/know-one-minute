@@ -1,12 +1,29 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>1分でわかる</title>
-</head>
-<body>
-  <p>1分でわかる</p>
-</body>
-</html>
+---
+layout: default
+---
+
+<main class="main-content">
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li class="post-list-item">
+        <a href="{{ post.url }}">
+          <div>
+            <header>
+              <figure class="post-thumbnail"><img src="{{ post.thumbnail }}" alt="「{{ post.title }}」のサムネイル"></figure>
+              <h2 class="post-list-title">{{ post.title }}</h2>
+              <div class="post-list-meta">
+                <time class="post-list-time">{{ post.date | date: '%Y-%m-%d' }}</time>
+              </div>
+            </header>
+            <div class="post-list-body">
+              {{ post.excerpt }}
+            </div>
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</main>
+<aside class="sidebar">
+  {% include sidebar.html %}
+</aside>
