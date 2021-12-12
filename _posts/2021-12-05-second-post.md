@@ -3,7 +3,6 @@ layout: post
 title: カテゴリーは勉強です。
 thumbnail: /assets/images/first-post.png
 categories: 勉強
-permalink: /:categories/:title
 ---
 
 カテゴリーは勉強です。

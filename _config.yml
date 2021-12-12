@@ -1,5 +1,6 @@
 url: https://yuppymam.github.io/know-one-minute/
 excerpt_separator: "<!--more-->"
+permalink: /:title
 collections:
   category:
     output: true

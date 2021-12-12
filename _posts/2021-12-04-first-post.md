@@ -3,7 +3,6 @@ layout: post
 title: カテゴリーは生活です。
 thumbnail: /assets/images/first-post.png
 categories: 生活
-permalink: /:categories/:title
 ---
 
 カテゴリーは生活です。
