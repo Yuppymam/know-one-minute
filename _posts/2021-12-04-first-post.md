@@ -1,12 +1,12 @@
 ---
 layout: post
-title: はじめまして
+title: カテゴリーは生活です。
 thumbnail: /assets/images/first-post.png
-categories: news
+categories: 生活
 permalink: /:categories/:title
 ---
 
-短くわかりやすい文章を書く練習としてはじめました。よろしくお願いします。
+カテゴリーは生活です。
 <!--more-->
 短くわかりやすい文章を書く練習としてはじめました。よろしくお願いします。
 短くわかりやすい文章を書く練習としてはじめました。よろしくお願いします。

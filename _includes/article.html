@@ -1,0 +1,12 @@
+<div>
+  <header>
+    <figure class="post-thumbnail"><img src="{{ post.thumbnail | relative_url }}" alt="「{{ post.title }}」のサムネイル"></figure>
+    <h2 class="post-list-title">{{ post.title }}</h2>
+    <div class="post-list-meta">
+      <time class="post-list-time">{{ post.date | date: '%Y-%m-%d' }}</time>
+    </div>
+  </header>
+  <div class="post-list-body">
+    {{ post.excerpt }}
+  </div>
+</div>

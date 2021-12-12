@@ -1,10 +1,12 @@
 ---
 layout: default
+title: カテゴリー
 ---
 
 <main class="main-content">
+  <h1 class="category-page-title">{{ page.tag }}</h1>
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.categories[page.tag] %}
       <li class="post-list-item">
         <a href="{{ post.url | relative_url }}">
           {% include article.html %}
@@ -16,3 +18,5 @@ layout: default
 <aside class="sidebar">
   {% include sidebar.html %}
 </aside>
+
+

@@ -1,6 +1,8 @@
 <div class="categories">
   <h4 class="categories-title">カテゴリー</h4>
   <ul>
-    <li>お知らせ</li>
+    {% for category in site.categories %}
+      <li><a href="{{ site.baseurl }}/category/{{ category[0] | uri_escape }}" class="category-list">{{ category[0] }} <span> ({{ category[1].size }}) </span></a></li>
+    {% endfor %}
   </ul>
 </div>
