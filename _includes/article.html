@@ -1,10 +1,6 @@
 <div>
   <header>
-    {% if post.thumbnail %}
-      <figure class="post-thumbnail"><img src="{{ post.thumbnail | relative_url }}" alt="「{{ post.title }}」のサムネイル"></figure>
-    {% else %}
-      <figure class="post-thumbnail"><img src="{{ '/assets/images/sample.png' | relative_url }}" alt="「{{ post.title }}」のサムネイル"></figure>
-    {% endif %}
+    <figure class="post-thumbnail"><img src="{{ post.thumbnail | relative_url }}" alt="「{{ post.title }}」のサムネイル"></figure>
     <h2 class="post-list-title">{{ post.title }}</h2>
     <div class="post-list-meta">
       {%- if post.last_modified_at == '' -%}

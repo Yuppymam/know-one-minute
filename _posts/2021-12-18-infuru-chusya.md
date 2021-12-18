@@ -3,7 +3,6 @@ title: インフル注射打ちました
 layout: post
 categories:
 - 生活
-date: '2021-12-18 02:30:31'
 ---
 
 ## 注射打ってきました！

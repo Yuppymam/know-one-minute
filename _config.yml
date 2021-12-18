@@ -9,19 +9,24 @@ collections:
 plugins:
   - jekyll-last-modified-at
 
+last-modified-at:
+  date-format: '%Y-%m-%d'
+
 jekyll_admin:
   hidden_links:
+    - datafiles
+  homepage: "posts"
 
 defaults:
-  - scope:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
       layout: post
-      thumbnail: ''
-      categories: ''
-      date: ''
+      thumbnail: "/assets/images/sample.png"
+      categories: []
       last_modified_at: ''
-
-last-modified-at:
-    date-format: '%Y-%m-%d'
 
 exclude:
   - README.md
