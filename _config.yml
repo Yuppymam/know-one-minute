@@ -8,6 +8,18 @@ collections:
 
 plugins:
   - jekyll-last-modified-at
+
+jekyll_admin:
+  hidden_links:
+
+defaults:
+  - scope:
+      layout: post
+      thumbnail: ''
+      categories: ''
+      date: ''
+      last_modified_at: ''
+
 last-modified-at:
     date-format: '%Y-%m-%d'
 
