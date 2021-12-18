@@ -1,8 +1,9 @@
 ---
-layout: post
 title: カテゴリーは勉強です。
-thumbnail: /assets/images/first-post.png
-categories: 勉強
+layout: post
+thumbnail: "/assets/images/first-post.png"
+categories:
+- 勉強
 ---
 
 カテゴリーは勉強です。

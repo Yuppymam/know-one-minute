@@ -1,8 +1,9 @@
 ---
-layout: post
 title: カテゴリーは生活です。
-thumbnail: /assets/images/first-post.png
-categories: 生活
+layout: post
+thumbnail: "/assets/images/first-post.png"
+categories:
+- 生活
 ---
 
 カテゴリーは生活です。
