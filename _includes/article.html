@@ -7,7 +7,11 @@
     {% endif %}
     <h2 class="post-list-title">{{ post.title }}</h2>
     <div class="post-list-meta">
-      <time class="post-list-time">{{ post.date | date: '%Y-%m-%d' }}</time>
+      {%- if post.last_modified_at == '' -%}
+        <time class="post-list-time">{{ post.date | date: '%Y-%m-%d' }}</time>
+      {%- else -%}
+        <time class="post-list-update-time">{{ post.last_modified_at | date: '%Y-%m-%d' }}</time>
+      {%- endif -%}
     </div>
   </header>
   <div class="post-list-body">

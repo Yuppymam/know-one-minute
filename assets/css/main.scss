@@ -148,6 +148,7 @@ img {
 }
 .post-list-meta {
   display: flex;
+  gap: 1em;
   justify-content: flex-end;
   font-size: 0.8rem;
 }
@@ -155,6 +156,12 @@ img {
   font-family: "Font Awesome 5 Free";
   content: '\f017';
   font-weight: 400;
+  margin-right: 0.25rem;
+}
+.post-list-update-time::before {
+  font-family: "Font Awesome 5 Free";
+  content: '\f1da';
+  font-weight: 900;
   margin-right: 0.25rem;
 }
 
