@@ -1,6 +1,10 @@
 <div>
   <header>
-    <figure class="post-thumbnail"><img src="{{ post.thumbnail | relative_url }}" alt="「{{ post.title }}」のサムネイル"></figure>
+    {% if post.thumbnail %}
+      <figure class="post-thumbnail"><img src="{{ post.thumbnail | relative_url }}" alt="「{{ post.title }}」のサムネイル"></figure>
+    {% else %}
+      <figure class="post-thumbnail"><img src="{{ '/assets/images/sample.png' | relative_url }}" alt="「{{ post.title }}」のサムネイル"></figure>
+    {% endif %}
     <h2 class="post-list-title">{{ post.title }}</h2>
     <div class="post-list-meta">
       <time class="post-list-time">{{ post.date | date: '%Y-%m-%d' }}</time>

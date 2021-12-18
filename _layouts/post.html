@@ -9,9 +9,15 @@ layout: default
       <div class="post-list-meta">
         <time class="post-list-time">{{ page.date | date: '%Y-%m-%d' }}</time>
       </div>
-      <figure class="post-thumbnail">
-        <img src="{{ page.thumbnail | relative_url }}" alt="サムネイル">
-      </figure>
+      {% if page.thumbnail %}
+        <figure class="post-thumbnail">
+          <img src="{{ page.thumbnail | relative_url }}" alt="「{{ page.title }}」のサムネイル">
+        </figure>
+      {% else %}
+        <figure class="post-thumbnail">
+          <img src="{{ '/assets/images/sample.png' | relative_url }}" alt="「{{ page.title }}」のサムネイル">
+        </figure>
+      {% endif %}
     </header>
     <div class="post-content">
       {{ content }}
