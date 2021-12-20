@@ -1,6 +1,6 @@
 ---
 ---
-$main-color: #faff48;
+$main: #faff48;
 $orange: #f9d02b;
 $black: #333333;
 $white: #fff;
@@ -67,7 +67,7 @@ img {
   }
 }
 .header-main {
-  background-color: $main-color;
+  background-color: $main;
   display: flex;
   justify-content: center;
   .header-logo {
@@ -163,6 +163,26 @@ img {
   content: '\f1da';
   font-weight: 900;
   margin-right: 0.25rem;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+  font-size: 0.9rem;
+  line-height: 1;
+  a, span {
+    padding: 0.9em;
+    border: solid 1px $black;
+  }
+  a:hover {
+    background-color: $black;
+    color: $white;
+    transition: .3s;
+  }
+  .current-page {
+    background-color: $black;
+    color: $white;
+  }
 }
 
 .sidebar {

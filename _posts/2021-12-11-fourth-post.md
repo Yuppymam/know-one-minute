@@ -1,6 +1,5 @@
 ---
 title: カテゴリーは勉強です。
-layout: post
 thumbnail: "/assets/images/first-post.png"
 categories:
 - 勉強

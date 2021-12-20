@@ -1,6 +1,5 @@
 ---
 title: インフル注射打ちました
-layout: post
 categories:
 - 生活
 ---

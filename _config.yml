@@ -2,12 +2,15 @@ url: https://yuppymam.github.io/know-one-minute/
 excerpt_separator: "<!--more-->"
 permalink: /:title
 
+plugins:
+  - jekyll-last-modified-at
+  - jekyll-paginate
+
+paginate: 4
+
 collections:
   category:
     output: true
-
-plugins:
-  - jekyll-last-modified-at
 
 last-modified-at:
   date-format: '%Y-%m-%d'
