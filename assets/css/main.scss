@@ -143,7 +143,7 @@ img {
 }
 .post-list-title {
   padding: 0.5rem 0;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
 }
 .post-list-meta {
@@ -266,5 +266,46 @@ img {
     margin: 0 0.2rem;
     background-color: $light-gray;
     border-radius: 1px;
+  }
+}
+
+@media (max-width: 959px) {
+  .contents {
+    display: block;
+  }
+  .main-content {
+    width: 100%;
+  }
+  .sidebar {
+    width: 100%;
+    margin: 4rem 0 2rem;
+  }
+}
+@media (max-width: 599px) {
+  .contents {
+    padding: 1.5rem;
+  }
+  .post-list-item {
+    width: 100%;
+  }
+  .header-main .header-logo {
+    width: 200px;
+    padding: 0.3rem 0;
+  }
+  .header-top-bar small {
+    font-size: 0.7rem;
+  }
+  .header-bottom-bar {
+    justify-content: center;
+  }
+  .post-list-title {
+    font-size: 1rem;
+  }
+  .post-list-body {
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+  }
+  .footer-nav .menu-item {
+    font-size: 0.7rem;
   }
 }
