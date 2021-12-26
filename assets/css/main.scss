@@ -23,8 +23,7 @@ img {
 .center {
   text-align: center;
 }
-.header-top-bar,
-.header-bottom-bar {
+.header-top-bar {
   background-color: $black;
   color: $white;
   padding: 0.2rem 1rem;
@@ -34,37 +33,6 @@ img {
 }
 .header-top-bar {
   text-align: center;
-}
-.header-bottom-bar {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  input[type="text"] {
-    font-size: 0.9rem;
-    margin: 0.2rem 0;
-    background-color: $white;
-    color: $black;
-    border: 1px solid #999;
-    padding: 3px 15px;
-    border-radius: 20px;
-    height: 2.0rem;
-    width: 245px;
-    overflow: hidden;
-    &:focus {
-      outline: 0;
-    }
-  }
-  input[type="submit"] {
-    padding: 0.4rem;
-    cursor: pointer;
-    font-family: "Font Awesome 5 Free";
-    font-weight: bold;
-    border: none;
-    background: none;
-    color: $white;
-    outline : none;
-    display: inline-block;
-  }
 }
 .header-main {
   background-color: $main;
@@ -282,6 +250,9 @@ img {
   }
 }
 @media (max-width: 599px) {
+  .gsc-input-box {
+    padding: 0 !important;
+  }
   .contents {
     padding: 1.5rem;
   }
