@@ -235,6 +235,10 @@ img {
     background-color: $light-gray;
     border-radius: 1px;
   }
+  p img {
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+  }
 }
 
 @media (max-width: 959px) {
@@ -278,5 +282,15 @@ img {
   }
   .footer-nav .menu-item {
     font-size: 0.7rem;
+  }
+  .main-content.post {
+    padding: 0;
+  }
+  .post-header h1 {
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+  .post-content h2 {
+    font-size: 1.2rem;
   }
 }
