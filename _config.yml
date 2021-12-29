@@ -27,7 +27,7 @@ defaults:
       type: posts
     values:
       layout: post
-      thumbnail: "/assets/images/sample.png"
+      thumbnail: "/assets/images/thumbnails/sample.png"
       categories: []
       last_modified_at: ''
 

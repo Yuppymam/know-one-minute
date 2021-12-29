@@ -1,11 +1,11 @@
 ---
 title: 洗濯物が赤くなった！その原因と対策とは？
-thumbnail: "/assets/images/red-laundry.png"
+thumbnail: "/assets/images/thumbnails/red-laundry.png"
 categories:
 - 生活
 ---
 
-塩素系漂白剤を使って洗濯したら、白かったシャツが赤くなってしまった！？
+塩素系漂白剤を使って洗濯したら、白かったシャツが赤くなってしまった！なぜこんなことが起きるのでしょうか。赤くなる原因と、白く戻す方法について紹介していきます。
 <!--more-->
 
 ## 原因
