@@ -1,7 +1,7 @@
 ---
 title: "【Gmail】特定のメールを転送したい"
 categories:
-- 生活
+- Gmail
 thumbnail: "/assets/images/thumbnails/gmail-transfer-settings.png"
 ---
 

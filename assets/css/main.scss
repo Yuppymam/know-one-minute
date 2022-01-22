@@ -1,12 +1,12 @@
 ---
 ---
-$main: #faff48;
-$orange: #f9d02b;
+$main: #F7D9D9;
+$pink: #F25287;
 $black: #333333;
-$white: #fff;
-$gray: #E0E0E0;
-$light-gray: #f8f8f8;
-$link-color: #4185f3;
+$white: #F9F3F3;
+$gray: #B4A5A5;
+$dark-gray: #808080;
+$light-gray: #dddddd;
 
 body {
   display: flex;
@@ -14,6 +14,7 @@ body {
   min-height: 100vh;
   font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック体", "YuGothic", "メイリオ", "Meiryo", "verdana", sans-serif;
   color: $black;
+  background-color: $white;
   line-height: 1.8;
 }
 img {
@@ -24,8 +25,8 @@ img {
   text-align: center;
 }
 .header-top-bar {
-  background-color: $black;
-  color: $white;
+  background-color: $white;
+  color: $dark-gray;
   padding: 0.2rem 1rem;
   small {
     font-size: 0.8rem;
@@ -46,13 +47,15 @@ img {
 .gsc-control-cse {
   display: flex;
   justify-content: flex-end;
+  background-color: $white !important;
+  border: none !important;
 }
 .gsc-control-wrapper-cse {
   width: 360px !important;
 }
 
 .footer {
-  background-color: $black;
+  background-color: $gray;
   color: $white;
   text-align: center;
   padding: 1rem 0;
@@ -167,14 +170,15 @@ img {
   padding: 0.8rem;
   margin-bottom: 0.8rem;
   font-weight: bold;
-  background-color: $black;
-  color: $white;
+  background-color: $main;
+  color: $pink;
 }
 .category-list {
   display: block;
   padding: 0.4rem;
   border-bottom: solid 1px $gray;
   &::before {
+    color: $gray;
     font-family: "Font Awesome 5 Free";
     content: '\f138';
     font-weight: 900;
@@ -218,7 +222,7 @@ img {
     font-size: 1.4rem;
     font-weight: bold;
     margin: 3rem 0 2rem;
-    border-left: 4px solid $orange;
+    border-left: 4px solid $pink;
     padding: 0.4rem 0 0.4rem 0.8rem;
   }
   p, ul {
