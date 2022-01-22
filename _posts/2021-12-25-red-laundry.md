@@ -16,4 +16,4 @@ categories:
 
 <a target="_blank"  href="https://www.amazon.co.jp/gp/product/B07JMQMK96/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B07JMQMK96&linkCode=as2&tag=yuppy0d-22&linkId=bbbec10ec6e8fd47cc32a3b22bd1d129"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B07JMQMK96&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=yuppy0d-22" ></a>
 
-赤くなった部分にパーツクリーナーを吹き付けると、油分がどんどん飛んで赤い反応が薄くなっていきます。是非お試しあれ。
+赤くなった部分にパーツクリーナーを吹き付けると、油分がどんどん飛んで赤い反応が薄くなっていきます。是非お試しあれ...！
