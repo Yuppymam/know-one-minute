@@ -19,8 +19,8 @@
   <meta property="og:type" content="website">
 
   {% if page.thumbnail %}
-    <meta property="og:image" content="{{ site.url }}{{ page.thumbnail }}">
-    <meta name="twitter:image" content="{{ site.url }}{{ page.thumbnail }}" />
+    <meta property="og:image" content="{{ page.thumbnail | prepend: site.url }}">
+    <meta name="twitter:image" content="{{ page.thumbnail | prepend: site.url }}" />
   {% else %}
     <meta property="og:image" content="{{ site.url }}/assets/images/ogp.png">
     <meta name="twitter:image" content="{{ site.url }}/assets/images/ogp.png" />
