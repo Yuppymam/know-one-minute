@@ -9,7 +9,7 @@ thumbnail: "/assets/images/thumbnails/tukubadaigakufuzoku_hospital_laundry.png"
 <!--more-->
 
 ## コインランドリーのスペック
-型番ES-HD63P。SHARP製です。（2022年2月現在の情報です。）
+型番ES-HD63P。SHARP製です。私が入院した11階のフロアの洗濯室には、2台設置されていました。（2022年2月現在の情報です。）
 今回は乾燥までしてくれないと意味がないので3キロ500円コース（2時間）と、1キロ400円コース（1時間20分）の2コースがメインです。乾燥のみ30分100円コースもあります。洗剤は自動投入なので持参した洗剤は使えませんのでご注意を。詳しくは下の写真をご覧ください。
 
 ![洗濯量と料金表]({{ site.baseurl }}/assets/images/articles/laundry_prices.png)
