@@ -5,6 +5,7 @@ permalink: /:title
 plugins:
   - jekyll-last-modified-at
   - jekyll-paginate
+  - jekyll-sitemap
 
 paginate: 4
 
