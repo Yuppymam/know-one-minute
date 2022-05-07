@@ -1,5 +1,5 @@
 ---
-title: 筑波大学附属病院 衣類レンタルサービスについて
+title: '筑波大学附属病院 入院生活: 衣類レンタルサービスについて'
 categories:
 - 医療
 thumbnail: "/assets/images/thumbnails/tukubadaigakufuzoku_hospital_rental_system.png"

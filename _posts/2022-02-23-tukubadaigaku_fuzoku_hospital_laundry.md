@@ -1,5 +1,5 @@
 ---
-title: 筑波大学附属病院 コインランドリーについて
+title: '筑波大学附属病院 入院生活: コインランドリーについて'
 categories:
 - 医療
 thumbnail: "/assets/images/thumbnails/tukubadaigakufuzoku_hospital_laundry.png"
