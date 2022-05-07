@@ -2,7 +2,7 @@
 title: "【Gmail】特定のメールを転送したい"
 categories:
 - Gmail
-thumbnail: "/assets/images/thumbnails/gmail-transfer-settings.png"
+thumbnail: "assets/images/thumbnails/gmail-transfer-settings.png"
 ---
 
 Gmailには特定のアドレスやワードでフィルターをかけて転送することができます。覚えてしまえば簡単な設定ですが、最初はどこから設定するのか分かりづらいので一緒に確認していきましょう。

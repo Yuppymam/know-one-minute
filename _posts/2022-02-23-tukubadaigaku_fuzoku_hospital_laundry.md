@@ -2,7 +2,7 @@
 title: '筑波大学附属病院 入院生活: コインランドリーについて'
 categories:
 - 医療
-thumbnail: "/assets/images/thumbnails/tukubadaigakufuzoku_hospital_laundry.png"
+thumbnail: "assets/images/thumbnails/tukubadaigakufuzoku_hospital_laundry.png"
 ---
 
 訳あって筑波大学附属病院に１ヶ月以上の長期入院をすることになりました。自宅から遠いというのもあり、洗濯物は自分でなんとかすることに。病院内のコインランドリーを利用したので、実際に使ってみた感想をまとめてみました。

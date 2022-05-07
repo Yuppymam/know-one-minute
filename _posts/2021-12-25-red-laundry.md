@@ -1,6 +1,6 @@
 ---
 title: 洗濯物が赤くなった！その原因と対策とは？
-thumbnail: "/assets/images/thumbnails/red-laundry.png"
+thumbnail: "assets/images/thumbnails/red-laundry.png"
 categories:
 - 生活
 ---
