@@ -1,12 +1,11 @@
 ---
 ---
-$main: #F7D9D9;
-$pink: #F25287;
+
+$main: #3587A4;
+$main-light: #C1DFF0;
 $black: #333333;
-$white: #F9F3F3;
-$gray: #B4A5A5;
-$dark-gray: #808080;
-$light-gray: #dddddd;
+$white: #fff;
+$light-gray: #C1DFF0;
 
 body {
   display: flex;
@@ -25,8 +24,8 @@ img {
   text-align: center;
 }
 .header-top-bar {
-  background-color: $white;
-  color: $dark-gray;
+  background-color: $main;
+  color: $white;
   padding: 0.2rem 1rem;
   small {
     font-size: 0.8rem;
@@ -36,7 +35,7 @@ img {
   text-align: center;
 }
 .header-main {
-  background-color: $main;
+  background-color: $main-light;
   display: flex;
   justify-content: center;
   .header-logo {
@@ -55,7 +54,7 @@ img {
 }
 
 .footer {
-  background-color: $gray;
+  background-color: $main;
   color: $white;
   text-align: center;
   padding: 1rem 0;
@@ -85,6 +84,8 @@ img {
   display: flex;
   justify-content: space-between;
   padding: 1rem 3rem 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .main-content {
   width: 70%;
@@ -171,14 +172,14 @@ img {
   margin-bottom: 0.8rem;
   font-weight: bold;
   background-color: $main;
-  color: $pink;
+  color: $white;
 }
 .category-list {
   display: block;
   padding: 0.4rem;
-  border-bottom: solid 1px $gray;
+  border-bottom: solid 1px $main;
   &::before {
-    color: $gray;
+    color: $main;
     font-family: "Font Awesome 5 Free";
     content: '\f138';
     font-weight: 900;
@@ -189,9 +190,10 @@ img {
   }
 }
 .category-page-title {
+  color: $main;
   font-size: 1.4rem;
   font-weight: bold;
-  border-bottom: solid 1px $gray;
+  border-bottom: solid 1px $main;
   padding: 0.5rem;
   margin-bottom: 1rem;
   &::before {
@@ -222,7 +224,7 @@ img {
     font-size: 1.4rem;
     font-weight: bold;
     margin: 3rem 0 2rem;
-    border-left: 4px solid $pink;
+    border-left: 4px solid $main;
     padding: 0.4rem 0 0.4rem 0.8rem;
   }
   p, ul {
@@ -307,4 +309,11 @@ img {
   .post-content h2 {
     font-size: 1.1rem;
   }
+}
+
+.gsc-search-button-v2,
+.gsc-search-button-v2:hover,
+.gsc-search-button-v2:focus {
+  background-color: $main !important;
+  border-color: $main !important;
 }
