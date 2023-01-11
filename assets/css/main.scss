@@ -43,11 +43,13 @@ img {
     width: 260px;
   }
 }
+
+// 検索BOX
 .gsc-control-cse {
   display: flex;
   justify-content: flex-end;
-  background-color: $white !important;
-  border: none !important;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .gsc-control-wrapper-cse {
   width: 360px !important;
@@ -309,11 +311,4 @@ img {
   .post-content h2 {
     font-size: 1.1rem;
   }
-}
-
-.gsc-search-button-v2,
-.gsc-search-button-v2:hover,
-.gsc-search-button-v2:focus {
-  background-color: $main !important;
-  border-color: $main !important;
 }
