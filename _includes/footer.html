@@ -7,6 +7,10 @@
     </ul>
   </div>
   <small class="copyright">
-    &copy; 2022 １分でわかる All rights Reserved.
+    &copy; <span id="current-year"></span> １分でわかる All rights Reserved.
   </small>
 </footer>
+
+<script>
+  document.getElementById("current-year").innerText = new Date().getFullYear();
+</script>
